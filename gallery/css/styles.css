@@ -78,51 +78,51 @@ body {
   }
 
    #box1 {
-     height: 36vh;
+     height: 24.5vh;
      width: 45vw;
      float: left;
-     margin-left: 3vw;
-     margin-top: 5vh;
+     margin-left: 4vw;
+     margin-top: 4vh;
    }
 
    #box2 {
-     height: 36vh;
+     height: 24.5vh;
      width: 45vw;
      float: left;
-     margin-top: 5vh;
+     margin-top: 4vh;
      margin-left: 2vw;
    }
 
    #box3 {
-     height: 36vh;
+     height: 24.5vh;
      width: 45vw;
      float: left;
-     margin-left: 3vw;
-     margin-top: 5vh;
+     margin-left: 4vw;
+     margin-top: 4vh;
    }
 
    #box4 {
-     height: 36vh;
+     height: 24.5vh;
      width: 45vw;
      float: left;
      margin-left: 2vw;
-     margin-top: 5vh;
+     margin-top: 4vh;
    }
 
    #box5 {
-     height: 36vh;
+     height: 24.5vh;
      width: 45vw;
      float: left;
-     margin-top: 5vh;
+     margin-top: 4vh;
      margin-right: 2vw;
-     margin-left: 3vw;
+     margin-left: 4vw;
    }
 
    #box6 {
-     height: 36vh;
+     height: 24.5vh;
      width: 45vw;
      float: left;
-     margin-top: 5vh;
+     margin-top: 4vh;
    }
 }
 
