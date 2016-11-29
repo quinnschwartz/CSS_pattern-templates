@@ -11,18 +11,14 @@ body {
   min-height: 100px;
 }
 
-.container {
-  width: 100vw;
-  height: 100vh;
-}
 
  @media screen and (min-width:1033px) {
-   #header {
+   .header {
      width: 100vw;
      height: 10vh;
    }
 
-    #box1 {
+    .box1 {
       height: 36vh;
       width: 30vw;
       float: left;
@@ -30,7 +26,7 @@ body {
       margin-top: 5vh;
     }
 
-    #box2 {
+    .box2 {
       height: 36vh;
       width: 30vw;
       float: left;
@@ -39,14 +35,14 @@ body {
       margin-left: 2vw;
     }
 
-    #box3 {
+    .box3 {
       height: 36vh;
       width: 30vw;
       float: left;
       margin-top: 5vh;
     }
 
-    #box4 {
+    .box4 {
       height: 36vh;
       width: 30vw;
       float: left;
@@ -54,7 +50,7 @@ body {
       margin-top: 5vh;
     }
 
-    #box5 {
+    .box5 {
       height: 36vh;
       width: 30vw;
       float: left;
@@ -63,7 +59,7 @@ body {
       margin-left: 2vw;
     }
 
-    #box6 {
+    .box6 {
       height: 36vh;
       width: 30vw;
       float: left;
@@ -72,12 +68,11 @@ body {
 }
 
 @media screen and (max-width:1032px) {
-  #header {
-    width: 100vw;
+  .header {
     height: 10vh;
   }
 
-   #box1 {
+   .box1 {
      height: 24.5vh;
      width: 45vw;
      float: left;
@@ -85,7 +80,7 @@ body {
      margin-top: 4vh;
    }
 
-   #box2 {
+   .box2 {
      height: 24.5vh;
      width: 45vw;
      float: left;
@@ -93,7 +88,7 @@ body {
      margin-left: 2vw;
    }
 
-   #box3 {
+   .box3 {
      height: 24.5vh;
      width: 45vw;
      float: left;
@@ -101,7 +96,7 @@ body {
      margin-top: 4vh;
    }
 
-   #box4 {
+   .box4 {
      height: 24.5vh;
      width: 45vw;
      float: left;
@@ -109,7 +104,7 @@ body {
      margin-top: 4vh;
    }
 
-   #box5 {
+   .box5 {
      height: 24.5vh;
      width: 45vw;
      float: left;
@@ -118,7 +113,7 @@ body {
      margin-left: 4vw;
    }
 
-   #box6 {
+   .box6 {
      height: 24.5vh;
      width: 45vw;
      float: left;
@@ -128,8 +123,26 @@ body {
 
 
 @media screen and (max-width:700px) {
+  #header {
+    height: 10vh;
+  }
+
+   .box1 {
+     height: 22vh;
+     width: 90vw;
+     margin-left: 4vw;
+     margin-top: 4vh;
+   }
+
+   .box2, .box3, .box4, .box5, .box6 {
+     height: 22vh;
+     width: 90vw;
+     margin-left: 4vw;
+     margin-top: 5vh;
+   }
 
 }
+
 
 .clearfix::after {
   content: "";
