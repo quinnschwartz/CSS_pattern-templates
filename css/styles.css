@@ -1,4 +1,4 @@
-*:not(body):not(html) {
+*:not(body):not(html):not(.container) {
   box-sizing:border-box;
   border:1px dashed #000;
 }
@@ -10,6 +10,12 @@ body {
 .columns {
   min-height: 100px;
 }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
  @media screen and (min-width:1033px) {
   #box1 {
     width: 68.5vw;
