@@ -11,68 +11,24 @@ body {
   min-height: 100px;
 }
 
-.container {
-  width: 100vw;
-  height: 100vh;
-}
 
  @media screen and (min-width:1033px) {
-  #box1 {
-    width: 68.5vw;
-    height: 100vh;
-    float: left;
-  }
-
-  #box2 {
-    width: 30vw;
-    height: 49vh;
-    float: right;
-    margin-bottom: 2vh;
-  }
-
-  #box3 {
-    width: 30vw;
-    height: 49vh;
-    float: right;
-  }
+   .logo {
+     height: 10vh;
+     width: 15vw;
+     margin-top: 5vh;
+   }
 }
-
 @media screen and (max-width:1032px) {
-  #box1 {
-    width: 100vw;
-    height: 64vh;
-    margin-bottom: 1vh;
-  }
 
-  #box2 {
-    width: 49vw;
-    height: 35vh;
-    float: left;
-  }
+}
+@media screen and (max-width:700px) {
 
-  #box3 {
-    width: 49vw;
-    height: 35vh;
-    float: right;
-
-  }
 }
 
-@media screen and (max-width:700px) {
-  #box1 {
-    width: 100vw;
-    height: 64vh;
-    margin-bottom: 3vh;
-  }
 
-  #box2 {
-    width: 100vw;
-    height: 15vh;
-    margin-bottom: 3vh;
-  }
-
-  #box3 {
-    width: 100vw;
-    height: 15vh;
-  }
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
