@@ -90,7 +90,6 @@ body {
      margin-left: 6vw;
      min-height: 100px;
      float: left;
-     display: inline-block;
    }
 
    .box1 {
@@ -114,7 +113,7 @@ body {
   .descriptions {
     width: 25vw;
     height: 10vh;
-    display: inline-block;
+    float: left;
     margin-top: 14.7vh;
     margin-left: 5vw;
   }
@@ -133,8 +132,10 @@ body {
   }
 
   .media {
-    display: inline-block;
-    float: right;
+    float: left;
+    width: 10vw;
+    margin-top: 15vh;
+    margin-left: 5vw;
   }
 
 
